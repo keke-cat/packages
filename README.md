@@ -1,2 +1,2 @@
 # packages
-packages win and unix
+packages in (win and unix).
