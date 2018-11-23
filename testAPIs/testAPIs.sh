@@ -57,7 +57,7 @@ echo
 ORG1_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org1')
+  -d 'username=Org1-qJim&orgName=Org1')
 echo $ORG1_TOKEN
 ORG1_TOKEN=$(echo $ORG1_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -69,7 +69,7 @@ echo
 ORG2_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org2')
+  -d 'username=Org2-qJim&orgName=Org2')
 echo $ORG2_TOKEN
 ORG2_TOKEN=$(echo $ORG2_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -81,7 +81,7 @@ echo
 ORG3_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org3')
+  -d 'username=Org3-qJim&orgName=Org3')
 echo $ORG3_TOKEN
 ORG3_TOKEN=$(echo $ORG3_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -93,7 +93,7 @@ echo
 ORG4_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org4')
+  -d 'username=Org4-qJim&orgName=Org4')
 echo $ORG4_TOKEN
 ORG4_TOKEN=$(echo $ORG4_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -105,7 +105,7 @@ echo
 ORG5_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org5')
+  -d 'username=Org5-qJim&orgName=Org5')
 echo $ORG5_TOKEN
 ORG5_TOKEN=$(echo $ORG5_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -117,7 +117,7 @@ echo
 ORG6_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org6')
+  -d 'username=Org6-qJim&orgName=Org6')
 echo $ORG6_TOKEN
 ORG6_TOKEN=$(echo $ORG6_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -129,7 +129,7 @@ echo
 ORG7_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org7')
+  -d 'username=Org7-qJim&orgName=Org7')
 echo $ORG7_TOKEN
 ORG7_TOKEN=$(echo $ORG7_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -141,7 +141,7 @@ echo
 ORG8_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org8')
+  -d 'username=Org8-qJim&orgName=Org8')
 echo $ORG8_TOKEN
 ORG8_TOKEN=$(echo $ORG8_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -153,7 +153,7 @@ echo
 ORG9_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org9')
+  -d 'username=Org9-qJim&orgName=Org9')
 echo $ORG9_TOKEN
 ORG9_TOKEN=$(echo $ORG9_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -165,7 +165,7 @@ echo
 ORG10_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org10')
+  -d 'username=Org10-qJim&orgName=Org10')
 echo $ORG10_TOKEN
 ORG10_TOKEN=$(echo $ORG10_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -177,7 +177,7 @@ echo
 ORG11_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org11')
+  -d 'username=Org11-qJim&orgName=Org11')
 echo $ORG11_TOKEN
 ORG11_TOKEN=$(echo $ORG11_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -189,7 +189,7 @@ echo
 ORG12_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org12')
+  -d 'username=Org12-qJim&orgName=Org12')
 echo $ORG12_TOKEN
 ORG12_TOKEN=$(echo $ORG12_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -201,7 +201,7 @@ echo
 ORG13_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org13')
+  -d 'username=Org13-qJim&orgName=Org13')
 echo $ORG13_TOKEN
 ORG13_TOKEN=$(echo $ORG13_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -213,7 +213,7 @@ echo
 ORG14_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org14')
+  -d 'username=Org14-qJim&orgName=Org14')
 echo $ORG14_TOKEN
 ORG14_TOKEN=$(echo $ORG14_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -225,7 +225,7 @@ echo
 ORG15_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org15')
+  -d 'username=Org15-qJim&orgName=Org15')
 echo $ORG15_TOKEN
 ORG15_TOKEN=$(echo $ORG15_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -237,7 +237,7 @@ echo
 ORG16_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org16')
+  -d 'username=Org16-qJim&orgName=Org16')
 echo $ORG16_TOKEN
 ORG16_TOKEN=$(echo $ORG16_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -249,7 +249,7 @@ echo
 ORG17_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org17')
+  -d 'username=Org17-qJim&orgName=Org17')
 echo $ORG17_TOKEN
 ORG17_TOKEN=$(echo $ORG17_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -261,7 +261,7 @@ echo
 ORG18_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org18')
+  -d 'username=Org18-qJim&orgName=Org18')
 echo $ORG18_TOKEN
 ORG18_TOKEN=$(echo $ORG18_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -273,7 +273,7 @@ echo
 ORG19_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org19')
+  -d 'username=Org19-qJim&orgName=Org19')
 echo $ORG19_TOKEN
 ORG19_TOKEN=$(echo $ORG19_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -285,7 +285,7 @@ echo
 ORG20_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org20')
+  -d 'username=Org20-qJim&orgName=Org20')
 echo $ORG20_TOKEN
 ORG20_TOKEN=$(echo $ORG20_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -297,7 +297,7 @@ echo
 ORG21_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org21')
+  -d 'username=Org21-qJim&orgName=Org21')
 echo $ORG21_TOKEN
 ORG21_TOKEN=$(echo $ORG21_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -309,7 +309,7 @@ echo
 ORG22_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org22')
+  -d 'username=Org22-qJim&orgName=Org22')
 echo $ORG22_TOKEN
 ORG22_TOKEN=$(echo $ORG22_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -321,7 +321,7 @@ echo
 ORG23_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org23')
+  -d 'username=Org23-qJim&orgName=Org23')
 echo $ORG23_TOKEN
 ORG23_TOKEN=$(echo $ORG23_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -333,7 +333,7 @@ echo
 ORG24_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org24')
+  -d 'username=Org24-qJim&orgName=Org24')
 echo $ORG24_TOKEN
 ORG24_TOKEN=$(echo $ORG24_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -345,7 +345,7 @@ echo
 ORG25_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org25')
+  -d 'username=Org25-qJim&orgName=Org25')
 echo $ORG25_TOKEN
 ORG25_TOKEN=$(echo $ORG25_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -357,7 +357,7 @@ echo
 ORG26_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org26')
+  -d 'username=Org26-qJim&orgName=Org26')
 echo $ORG26_TOKEN
 ORG26_TOKEN=$(echo $ORG26_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -369,7 +369,7 @@ echo
 ORG27_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org27')
+  -d 'username=Org27-qJim&orgName=Org27')
 echo $ORG27_TOKEN
 ORG27_TOKEN=$(echo $ORG27_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -381,7 +381,7 @@ echo
 ORG28_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org28')
+  -d 'username=Org28-qJim&orgName=Org28')
 echo $ORG28_TOKEN
 ORG28_TOKEN=$(echo $ORG28_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -393,7 +393,7 @@ echo
 ORG29_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org29')
+  -d 'username=Org29-qJim&orgName=Org29')
 echo $ORG29_TOKEN
 ORG29_TOKEN=$(echo $ORG29_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -405,7 +405,7 @@ echo
 ORG30_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org30')
+  -d 'username=Org30-qJim&orgName=Org30')
 echo $ORG30_TOKEN
 ORG30_TOKEN=$(echo $ORG30_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -417,7 +417,7 @@ echo
 ORG31_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org31')
+  -d 'username=Org31-qJim&orgName=Org31')
 echo $ORG31_TOKEN
 ORG31_TOKEN=$(echo $ORG31_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -429,7 +429,7 @@ echo
 ORG32_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org32')
+  -d 'username=Org32-qJim&orgName=Org32')
 echo $ORG32_TOKEN
 ORG32_TOKEN=$(echo $ORG32_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -441,7 +441,7 @@ echo
 ORG33_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org33')
+  -d 'username=Org33-qJim&orgName=Org33')
 echo $ORG33_TOKEN
 ORG33_TOKEN=$(echo $ORG33_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -453,7 +453,7 @@ echo
 ORG34_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org34')
+  -d 'username=Org34-qJim&orgName=Org34')
 echo $ORG34_TOKEN
 ORG34_TOKEN=$(echo $ORG34_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -465,7 +465,7 @@ echo
 ORG35_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org35')
+  -d 'username=Org35-qJim&orgName=Org35')
 echo $ORG35_TOKEN
 ORG35_TOKEN=$(echo $ORG35_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -477,7 +477,7 @@ echo
 ORG36_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org36')
+  -d 'username=Org36-qJim&orgName=Org36')
 echo $ORG36_TOKEN
 ORG36_TOKEN=$(echo $ORG36_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -489,7 +489,7 @@ echo
 ORG37_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org37')
+  -d 'username=Org37-qJim&orgName=Org37')
 echo $ORG37_TOKEN
 ORG37_TOKEN=$(echo $ORG37_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -501,7 +501,7 @@ echo
 ORG38_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org38')
+  -d 'username=Org38-qJim&orgName=Org38')
 echo $ORG38_TOKEN
 ORG38_TOKEN=$(echo $ORG38_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -513,7 +513,7 @@ echo
 ORG39_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org39')
+  -d 'username=Org39-qJim&orgName=Org39')
 echo $ORG39_TOKEN
 ORG39_TOKEN=$(echo $ORG39_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -525,7 +525,7 @@ echo
 ORG40_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org40')
+  -d 'username=Org40-qJim&orgName=Org40')
 echo $ORG40_TOKEN
 ORG40_TOKEN=$(echo $ORG40_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -537,7 +537,7 @@ echo
 ORG41_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org41')
+  -d 'username=Org41-qJim&orgName=Org41')
 echo $ORG41_TOKEN
 ORG41_TOKEN=$(echo $ORG41_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -549,7 +549,7 @@ echo
 ORG42_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org42')
+  -d 'username=Org42-qJim&orgName=Org42')
 echo $ORG42_TOKEN
 ORG42_TOKEN=$(echo $ORG42_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -561,7 +561,7 @@ echo
 ORG43_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org43')
+  -d 'username=Org43-qJim&orgName=Org43')
 echo $ORG43_TOKEN
 ORG43_TOKEN=$(echo $ORG43_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -573,7 +573,7 @@ echo
 ORG44_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org44')
+  -d 'username=Org44-qJim&orgName=Org44')
 echo $ORG44_TOKEN
 ORG44_TOKEN=$(echo $ORG44_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -585,7 +585,7 @@ echo
 ORG45_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org45')
+  -d 'username=Org45-qJim&orgName=Org45')
 echo $ORG45_TOKEN
 ORG45_TOKEN=$(echo $ORG45_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -597,7 +597,7 @@ echo
 ORG46_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org46')
+  -d 'username=Org46-qJim&orgName=Org46')
 echo $ORG46_TOKEN
 ORG46_TOKEN=$(echo $ORG46_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -609,7 +609,7 @@ echo
 ORG47_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org47')
+  -d 'username=Org47-qJim&orgName=Org47')
 echo $ORG47_TOKEN
 ORG47_TOKEN=$(echo $ORG47_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -621,7 +621,7 @@ echo
 ORG48_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org48')
+  -d 'username=Org48-qJim&orgName=Org48')
 echo $ORG48_TOKEN
 ORG48_TOKEN=$(echo $ORG48_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -633,7 +633,7 @@ echo
 ORG49_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org49')
+  -d 'username=Org49-qJim&orgName=Org49')
 echo $ORG49_TOKEN
 ORG49_TOKEN=$(echo $ORG49_TOKEN | jq ".token" | sed "s/\"//g")
 echo
@@ -645,7 +645,7 @@ echo
 ORG50_TOKEN=$(curl -s -X POST \
   http://localhost:4000/users \
   -H "content-type: application/x-www-form-urlencoded" \
-  -d 'username=qJim&orgName=Org50')
+  -d 'username=Org50-qJim&orgName=Org50')
 echo $ORG50_TOKEN
 ORG50_TOKEN=$(echo $ORG50_TOKEN | jq ".token" | sed "s/\"//g")
 echo
