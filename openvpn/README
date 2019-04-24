@@ -1,0 +1,4 @@
+OpenVPN Install:
+https://github.com/Nyr/openvpn-install
+openvpn-auth-pam.so:
+openvpn-2.0.7.tar.gz::openvpn-2.0.7/plugin/auth-pam
